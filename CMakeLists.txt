@@ -28,7 +28,7 @@
 # Huge thanks to mxaddict for setting up the CMake build system!
 
 # we need features that are 2.6 >= dependent
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.5)
 
 # lets name the project
 project(AudioProject)
@@ -75,7 +75,8 @@ SET(AudioProject_CMAKE_DIR "${AudioProject_SOURCE_DIR}/cmake")
 #######################################
 
 # SDL2
-INCLUDE(${AudioProject_CMAKE_DIR}/FindSDL2.cmake)
+# INCLUDE(${AudioProject_CMAKE_DIR}/FindSDL2.cmake)
+find_package(SDL2 REQUIRED)
 
 # Define the include DIRs
 include_directories(

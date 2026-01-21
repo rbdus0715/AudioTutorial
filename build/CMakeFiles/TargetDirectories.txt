@@ -1,0 +1,3 @@
+/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles/AudioProject.dir
+/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles/edit_cache.dir
+/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles/rebuild_cache.dir
