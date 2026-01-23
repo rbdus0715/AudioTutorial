@@ -72,13 +72,16 @@ void SDLAudioContext::GenerateSamples(Uint8* streamIn, int streamInLen)
 	size_t streamLen = (size_t)(streamInLen/2);
 
 	m_stream.reserve(streamLen);
-	float* floatStream = *(float**)(&m_stream);
+	// float* floatStream = *(float**)(&m_stream);
+	float* floatStream = m_stream.data();
 
+	// 무음 처리
 	for(size_t i = 0; i < streamLen; i++)
 	{
 		floatStream[i] = 0.0f;
 	}
 
+	// 믹싱
 	std::vector<AudioObject*>::iterator it = m_playingAudio.begin();
 	std::vector<AudioObject*>::iterator end = m_playingAudio.end();
 	for(; it != end; ++it)
@@ -89,6 +92,7 @@ void SDLAudioContext::GenerateSamples(Uint8* streamIn, int streamInLen)
 		}
 	}
 
+	// 클리핑 방지
 	Sint16* stream = (Sint16*)streamIn;
 	for(size_t i = 0; i < streamLen; i++)
 	{

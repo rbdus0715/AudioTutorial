@@ -1060,6 +1060,9 @@ CMakeFiles/AudioProject.dir/src/main.cpp.o
  /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/begin_code.h
  /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/close_code.h
 
+CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o
+ /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/main_code/play_wav_file.cpp
+
 CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o
  /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/sdl/sdlaudiocontext.cpp
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h

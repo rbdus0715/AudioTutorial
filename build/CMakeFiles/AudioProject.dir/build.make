@@ -100,10 +100,24 @@ CMakeFiles/AudioProject.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AudioProject.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/main.cpp -o CMakeFiles/AudioProject.dir/src/main.cpp.s
 
+CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o: CMakeFiles/AudioProject.dir/flags.make
+CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o: /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/main_code/play_wav_file.cpp
+CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o: CMakeFiles/AudioProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o -MF CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o.d -o CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o -c /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/main_code/play_wav_file.cpp
+
+CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/main_code/play_wav_file.cpp > CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.i
+
+CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/main_code/play_wav_file.cpp -o CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.s
+
 CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o: CMakeFiles/AudioProject.dir/flags.make
 CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o: /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/sdl/sdlaudiocontext.cpp
 CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o: CMakeFiles/AudioProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o -MF CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o.d -o CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o -c /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/sdl/sdlaudiocontext.cpp
 
 CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.s: cmake_force
 CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o: CMakeFiles/AudioProject.dir/flags.make
 CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o: /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/sdl/sdlaudiodevice.cpp
 CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o: CMakeFiles/AudioProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o -MF CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o.d -o CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o -c /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/sdl/sdlaudiodevice.cpp
 
 CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.s: cmake_force
 CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o: CMakeFiles/AudioProject.dir/flags.make
 CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o: /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/sdl/sdlwavaudiodata.cpp
 CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o: CMakeFiles/AudioProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o -MF CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o.d -o CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o -c /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/sdl/sdlwavaudiodata.cpp
 
 CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.i: cmake_force
@@ -146,6 +160,7 @@ CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.s: cmake_force
 AudioProject_OBJECTS = \
 "CMakeFiles/AudioProject.dir/src/audioobject.cpp.o" \
 "CMakeFiles/AudioProject.dir/src/main.cpp.o" \
+"CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o" \
 "CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o" \
 "CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o" \
 "CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o"
@@ -155,13 +170,14 @@ AudioProject_EXTERNAL_OBJECTS =
 
 AudioProject: CMakeFiles/AudioProject.dir/src/audioobject.cpp.o
 AudioProject: CMakeFiles/AudioProject.dir/src/main.cpp.o
+AudioProject: CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o
 AudioProject: CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o
 AudioProject: CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o
 AudioProject: CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o
 AudioProject: CMakeFiles/AudioProject.dir/build.make
 AudioProject: /opt/homebrew/Cellar/sdl2/2.32.10/lib/libSDL2.dylib
 AudioProject: CMakeFiles/AudioProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable AudioProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable AudioProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AudioProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -177,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AudioProject.dir/build.make CMakeFiles/AudioProject.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/main_code/play_wav_file.o: src/main_code/play_wav_file.cpp.o
+.PHONY : src/main_code/play_wav_file.o
+
+# target to build an object file
+src/main_code/play_wav_file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AudioProject.dir/build.make CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o
+.PHONY : src/main_code/play_wav_file.cpp.o
+
+src/main_code/play_wav_file.i: src/main_code/play_wav_file.cpp.i
+.PHONY : src/main_code/play_wav_file.i
+
+# target to preprocess a source file
+src/main_code/play_wav_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AudioProject.dir/build.make CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.i
+.PHONY : src/main_code/play_wav_file.cpp.i
+
+src/main_code/play_wav_file.s: src/main_code/play_wav_file.cpp.s
+.PHONY : src/main_code/play_wav_file.s
+
+# target to generate assembly for a file
+src/main_code/play_wav_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AudioProject.dir/build.make CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.s
+.PHONY : src/main_code/play_wav_file.cpp.s
+
 src/sdl/sdlaudiocontext.o: src/sdl/sdlaudiocontext.cpp.o
 .PHONY : src/sdl/sdlaudiocontext.o
 
@@ -264,6 +288,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/main_code/play_wav_file.o"
+	@echo "... src/main_code/play_wav_file.i"
+	@echo "... src/main_code/play_wav_file.s"
 	@echo "... src/sdl/sdlaudiocontext.o"
 	@echo "... src/sdl/sdlaudiocontext.i"
 	@echo "... src/sdl/sdlaudiocontext.s"

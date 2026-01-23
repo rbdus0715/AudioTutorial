@@ -85,12 +85,12 @@ clean: CMakeFiles/AudioProject.dir/clean
 CMakeFiles/AudioProject.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AudioProject.dir/build.make CMakeFiles/AudioProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AudioProject.dir/build.make CMakeFiles/AudioProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target AudioProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target AudioProject"
 .PHONY : CMakeFiles/AudioProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AudioProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AudioProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles 0
 .PHONY : CMakeFiles/AudioProject.dir/rule
@@ -102,7 +102,7 @@ AudioProject: CMakeFiles/AudioProject.dir/rule
 # codegen rule for target.
 CMakeFiles/AudioProject.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AudioProject.dir/build.make CMakeFiles/AudioProject.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target AudioProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target AudioProject"
 .PHONY : CMakeFiles/AudioProject.dir/codegen
 
 # clean rule for target.

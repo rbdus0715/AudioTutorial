@@ -49,8 +49,11 @@ private:
 
 	bool RemoveAudio(AudioObject& ao);
 
-	SDLAudioContext(SDLAudioContext& other) { (void)other; }
-	void operator=(const SDLAudioContext& other) { (void)other;}
+	// 복사생성자와 대입생성자를 private 메소드로 지정함으로써
+	// 자원 중복 해제 문제와 하나의 오디오 장치를 
+	// 여러 객체가 소유한다는 것의 의미의 모호함을 없애기 위함
+	SDLAudioContext(const SDLAudioContext& other) {(void)other;}
+	void operator=(const SDLAudioContext& other) {(void)other;}
 };
 
 #endif

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/audioobject.cpp" "CMakeFiles/AudioProject.dir/src/audioobject.cpp.o" "gcc" "CMakeFiles/AudioProject.dir/src/audioobject.cpp.o.d"
   "/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/main.cpp" "CMakeFiles/AudioProject.dir/src/main.cpp.o" "gcc" "CMakeFiles/AudioProject.dir/src/main.cpp.o.d"
+  "/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/main_code/play_wav_file.cpp" "CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o" "gcc" "CMakeFiles/AudioProject.dir/src/main_code/play_wav_file.cpp.o.d"
   "/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/sdl/sdlaudiocontext.cpp" "CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o" "gcc" "CMakeFiles/AudioProject.dir/src/sdl/sdlaudiocontext.cpp.o.d"
   "/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/sdl/sdlaudiodevice.cpp" "CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o" "gcc" "CMakeFiles/AudioProject.dir/src/sdl/sdlaudiodevice.cpp.o.d"
   "/Users/gyuyeonjo/Documents/GitHub/AudioTutorial/src/sdl/sdlwavaudiodata.cpp" "CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o" "gcc" "CMakeFiles/AudioProject.dir/src/sdl/sdlwavaudiodata.cpp.o.d"
